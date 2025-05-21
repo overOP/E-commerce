@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        DMSerifText: ['DM Serif Text', 'serif'],
+        Poetson: ['Poetson', 'serif'],
+        Inter: ['Inter', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }

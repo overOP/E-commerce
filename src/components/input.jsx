@@ -3,7 +3,7 @@ const InputField = ({name,title,id, placeholder, className, type, ...data}) => (
     <div className="w-[350px]">
             <label 
                 htmlFor={name}
-                className="text-sm  font-medium"
+                className="text-sm font-medium"
             >
                 {title}
             </label>
