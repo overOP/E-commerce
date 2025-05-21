@@ -1,10 +1,10 @@
 import React from 'react'
-import Login from './pages/login'
-
+import { RouterProvider } from 'react-router'
+import { router } from './Routes'
 const App = () => {
   return (
     <div>
-      <Login/>
+      <RouterProvider router={router} />
     </div>
   )
 }
